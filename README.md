@@ -1,5 +1,6 @@
 # Heart Rate Modeling with Neural Networks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20388876.svg)](https://doi.org/10.5281/zenodo.20388876)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21%2B-orange)](https://www.tensorflow.org/)
