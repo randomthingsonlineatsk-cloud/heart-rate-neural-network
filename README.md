@@ -5,6 +5,20 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21%2B-orange)](https://www.tensorflow.org/)
 
+## Run Online (No Installation Required)
+
+[![Kaggle Part A](https://img.shields.io/badge/Kaggle-Heart%20Rate%20Regression-blue)](https://www.kaggle.com/code/shagufakhan/heart-rate-regression)
+[![Kaggle Part B](https://img.shields.io/badge/Kaggle-Arrhythmia%20Classification-blue)](https://www.kaggle.com/code/shagufakhan/arrhythmia-classification)
+
+**Part A — Heart Rate Prediction:**
+https://www.kaggle.com/code/shagufakhan/heart-rate-regression
+
+**Part B — Arrhythmia Detection:**
+https://www.kaggle.com/code/shagufakhan/arrhythmia-classification
+
+Click the badges above to run either pipeline interactively
+on Kaggle without any local setup or installation.
+
 ## Overview
 A complete deep learning pipeline for heart health modeling comprising 
 two parts: heart rate prediction using regression and arrhythmia 
