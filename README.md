@@ -40,6 +40,7 @@ Exercise Duration, Stress Level, Caffeine Intake
 | R2 Score | 0.8682 |
 
 ### Sample Prediction
+Age=30, Exercise=45min, Sleep=8hrs → 76.0 BPM (Normal range)
 
 ## Part B — Arrhythmia Detection (Classification)
 Detects cardiac arrhythmia type from ECG-derived features.
@@ -58,12 +59,17 @@ SDNN, RMSSD, pNN50, LF Power, HF Power
 | ROC-AUC | 0.9999 |
 
 ### Sample Prediction
+RR=0.83, HR=72, PR=0.16, QRS=0.09 → Normal (99.98% confidence)
 
 ## Neural Network Architecture
 
 ### Part A — Regression
+Input (10) → Dense 128 + BN + Dropout → Dense 64 + BN + Dropout
+→ Dense 32 + Dropout → Dense 16 → Output (1, Linear)
 
 ### Part B — Classification
+Input (10) → Dense 256 + BN + Dropout → Dense 128 + BN + Dropout
+→ Dense 64 + BN + Dropout → Dense 32 + Dropout → Output (5, Softmax)
 
 ## Output Figures
 | Figure | Description |
